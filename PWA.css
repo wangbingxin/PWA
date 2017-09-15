@@ -1,0 +1,42 @@
+html,body,div,ul,li,section,nav,footer,h2,h1,article{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height: 758px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav{
+    width:100%;
+    min-height: 2rem;
+    background-color:yellow;
+}
+.nav ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav ul li{
+    width:30%;
+    text-align: center;
+}
+.wrap .main section{
+    min-height: 4rem;
+    background-color:green;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#fff;
+    line-height: 4rem;
+}
+.wrap .main section:hover{
+    background-color:#00a69b;
+}
